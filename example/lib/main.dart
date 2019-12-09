@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 
 import 'package:diletta_bottom_navigator/dilettaBottomNavigator.dart';
 
-import 'painter.dart';
-
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -75,6 +73,7 @@ class _MyHomePageState extends State<MyHomePage> {
         
         title: Text('Diletta Bottom Navigator'),
       ),
+      backgroundColor: Colors.red,
       body: Center(
 
         child: _getPage(),

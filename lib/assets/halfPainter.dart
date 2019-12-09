@@ -13,14 +13,11 @@ class HalfPainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
 
-    print(size);
-
     final Rect beforeRect = Rect.fromLTWH(size.width / 4, 0, size.width / 2, size.height / 2);
 
     final path = Path();
     
     path.arcTo(beforeRect, radians(180), radians(180), false);
-    
 
     canvas.drawPath(path, arcPaint);
   }

@@ -239,7 +239,7 @@ class DilettaBottomNavigatorState extends State<DilettaBottomNavigator>
                                 width: circleSize * 2.5 * widthPercentage,
                                 decoration: BoxDecoration(
 
-                                  color: Colors.white,
+                                  color: Colors.transparent,
                                   shape: BoxShape.circle,
                                   boxShadow: [
 
